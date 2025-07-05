@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Django/Mongo
+*.sqlite3
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and outputs
+*.log
+
+# Jupyter notebooks temp files
+*.ipynb_checkpoints
+
+# Node/Django-specific
+node_modules/
+staticfiles/
+
+# Kafka, Spark temporary files
+*.jar
+*.class
